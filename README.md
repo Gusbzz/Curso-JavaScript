@@ -14,13 +14,24 @@ Repositório dedicado aos meus estudos em **JavaScript** — fundamentos, estrut
 
 ```
 Javascript/
-├── index.html          # Base HTML para testes no navegador
+├── index.html          # Base HTML com formulário e lista (add user)
+├── styles.css          # Estilos do projeto
 ├── main.js             # Arquivo principal de testes
 ├── string.js           # Manipulação de strings
 ├── arrays.js           # Fundamentos de arrays
 ├── arrays_method.js    # Métodos de arrays (map, filter, reduce)
 ├── objects.js          # Objetos e destructuring
-└── json.js             # JSON.stringify / JSON.parse
+├── json.js             # JSON.stringify / JSON.parse
+├── conditions.js       # if/else, ternário, switch e operadores lógicos
+├── truthy_falsy.js     # Valores truthy e falsy (!!, coerção booleana)
+├── loop_for.js         # for, for...of e forEach
+├── loop_in.js          # while e for...in
+├── functions.js        # Funções declarativas e arrow functions
+├── POO.js              # Classes, construtores, herança e métodos
+├── DOM.js              # Seleção de elementos (querySelector, getElementById)
+├── DOM_2.js            # Manipulação do DOM (textContent, innerHTML, style)
+├── eventos.js          # Event listeners e preventDefault
+└── form.js             # Validação de formulário e criação dinâmica de elementos
 ```
 
 ## 📖 Conteúdo Estudado
@@ -31,9 +42,13 @@ Javascript/
 - [x] Métodos de Array - `map`, `filter`, `reduce`
 - [x] Objetos - criação, objetos aninhados, destructuring
 - [x] JSON - serialização e desserialização
-- [ ] Condicionais e Loops
-- [ ] Funções e Arrow Functions
-- [ ] DOM e Eventos
+- [x] Condicionais - `if/else`, ternário, `switch`, `&&`/`||`
+- [x] Truthy / Falsy - coerção booleana, `!!`
+- [x] Loops - `for`, `for...of`, `while`, `for...in`, `forEach`
+- [x] Funções - declarativas e arrow functions
+- [x] POO - classes, `constructor`, herança (`extends`/`super`)
+- [x] DOM - seleção e manipulação (`querySelector`, `textContent`, `innerHTML`, `style`)
+- [x] Eventos - `addEventListener`, `preventDefault`, validação de formulário
 - [ ] Assincronismo (Promises, async/await)
 - [ ] Fetch API
 
@@ -51,6 +66,13 @@ node objects.js
 node string.js
 node json.js
 node arrays_method.js
+node conditions.js
+node truthy_falsy.js
+node loop_for.js
+node loop_in.js
+node functions.js
+node POO.js
+# DOM/eventos/form precisam ser executados no navegador via index.html
 ```
 
 ## 📝 Histórico de Estudos
